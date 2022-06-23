@@ -149,7 +149,7 @@ def daily(df):
     option = list(df["Province"].value_counts().index)
     option.sort()
 
-    menu = Select(options=option, value="DKI JAKARTA", title="Province")
+    menu = Select(options=option, value="ACEH", title="Province")
 
     menu.on_change("value", update)
 
